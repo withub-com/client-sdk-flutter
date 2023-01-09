@@ -18,6 +18,9 @@ rootProject.allprojects {
     repositories {
         google()
         mavenCentral()
+//        flatDir {
+//            dirs "${plugins.get("flutter-webrtc")}android/libs"
+//        }
     }
 }
 

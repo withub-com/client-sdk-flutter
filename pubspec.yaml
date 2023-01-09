@@ -28,8 +28,9 @@ dependencies:
   dart_webrtc: 1.0.12
   device_info_plus: ^8.0.0
   webrtc_interface: 1.0.10
-  flutter_webrtc: #IMUI组件 https://github.com/Poker-J/flutter_openim_widget.git
-    path: ../flutter-webrtc
+  flutter_webrtc:
+    git:
+      url: git@github.com:forgetW/flutter-webrtc.git
 
 dev_dependencies:
   flutter_test:
